@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:primeiroprojetodio/screens/about_screen.dart';
+import 'package:primeiroprojetodio/screens/about_me_screen.dart';
 
 class EndScreen extends StatefulWidget {
   @override
@@ -58,7 +58,7 @@ class _EndScreenState extends State<EndScreen> {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => AboutScreen(),
+                                builder: (context) => AboutMeScreen(),
                               ),
                             );
                           },
